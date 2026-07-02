@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Embun Aqeela Zahra — Portfolio</title>
+<meta name="description" content="Portfolio Embun Aqeela Zahra — Information Systems student, Data Science concentration. Full-stack & data-driven web systems.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23A6051A%22/><text x=%2250%22 y=%2268%22 font-size=%2255%22 font-family=%22Arial%22 font-weight=%22900%22 fill=%22%23FFEB00%22 text-anchor=%22middle%22>E</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body spellcheck="false">
+
+<!-- ============ F1 STARTING LIGHTS INTRO LOADER ============ -->
+<div class="f1-intro-loader" id="introLoader">
+  <div class="loader-content">
+    <div class="f1-gantry">
+      <div class="gantry-row">
+        <div class="gantry-col"><span class="g-light"></span><span class="g-light"></span></div>
+        <div class="gantry-col"><span class="g-light"></span><span class="g-light"></span></div>
+        <div class="gantry-col"><span class="g-light"></span><span class="g-light"></span></div>
+        <div class="gantry-col"><span class="g-light"></span><span class="g-light"></span></div>
+        <div class="gantry-col"><span class="g-light"></span><span class="g-light"></span></div>
+      </div>
+      <div class="gantry-label" id="gantryLabel">GRID READY</div>
+      <div class="gantry-sublabel">EMBUN AQEELA ZAHRA — PORTFOLIO 2026</div>
+    </div>
+    <button class="btn-launch" id="launchBtn">Start Engine</button>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#home" class="brand" aria-label="Back to top">
+      <span class="brand-text">EMBUN AQEELA <strong>ZAHRA</strong></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-nav>Profile</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#certificates" data-nav>Certificates</a>
+      <a href="#contact" data-nav class="nav-cta">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-stripes" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">PORTFOLIO · SEASON 2026 · DATA ANALYST</p>
+    <h1 class="hero-title">EMBUN AQEELA<br>ZAHRA</h1>
+    <p class="hero-sub">Information Systems student at President University, concentration in <strong>Data Science</strong>. Building data-driven and AI-enabled web systems — from inventory systems and academic analytics to AI proposal generators.</p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Contact Me</a>
+    </div>
+
+    <div class="hero-facts">
+      <div class="hero-fact"><span class="hf-num">3.76</span><span class="hf-label">CGPA / 4.00</span></div>
+      <div class="hero-fact"><span class="hf-num">9</span><span class="hf-label">Projects Built</span></div>
+      <div class="hero-fact"><span class="hf-num">4</span><span class="hf-label">Internships</span></div>
+      <div class="hero-fact"><span class="hf-num">5</span><span class="hf-label">Certificates</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PODIUM NAVIGATION ============ -->
+<section class="podium-section" aria-label="F1 podium-style main navigation">
+  <div class="section-head">
+    <p class="eyebrow">RACE RESULTS</p>
+    <h2>Podium</h2>
+    <p class="section-desc">Championship standings of my skills, experience, and academic milestones.</p>
+  </div>
+
+  <div class="podium">
+    <a href="#experience" class="podium-step step-p2" data-nav>
+      <div class="podium-photo ph-p2" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="podium-svg">
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+        </svg>
+      </div>
+      <div class="podium-card">
+        <span class="podium-pos">2</span>
+        <span class="podium-title">Work Experience</span>
+        <span class="podium-meta">Internships &amp; Roles</span>
+      </div>
+      <div class="podium-block block-2"><span>2</span></div>
+    </a>
+
+    <a href="#about" class="podium-step step-p1" data-nav>
+      <div class="podium-photo ph-p1" aria-hidden="true">
+        <img src="assets/profile.jpg" alt="Profile picture of Embun Aqeela Zahra">
+      </div>
+      <div class="podium-card gold">
+        <span class="podium-pos">1</span>
+        <span class="podium-title">Profile</span>
+        <span class="podium-meta">IS · Data Science</span>
+      </div>
+      <div class="podium-block block-1"><span>1</span></div>
+    </a>
+
+    <a href="#projects" class="podium-step step-p3" data-nav>
+      <div class="podium-photo ph-p3" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="podium-svg">
+          <polyline points="16 18 22 12 16 6"></polyline>
+          <polyline points="8 6 2 12 8 18"></polyline>
+          <line x1="14" y1="4" x2="10" y2="20"></line>
+        </svg>
+      </div>
+      <div class="podium-card">
+        <span class="podium-pos">3</span>
+        <span class="podium-title">Projects</span>
+        <span class="podium-meta">9 Systems Shipped</span>
+      </div>
+      <div class="podium-block block-3"><span>3</span></div>
+    </a>
+  </div>
+
+  <!-- Standings list: P4 - P6 -->
+  <div class="standings" role="list">
+    <a href="#skills" class="standing-row" data-nav role="listitem">
+      <span class="st-pos">4</span>
+      <span class="st-title">Soft Skills</span>
+      <span class="st-team">9 core strengths</span>
+      <span class="st-pts">9 <small>PTS</small></span>
+    </a>
+    <a href="#skills" class="standing-row" data-nav role="listitem">
+      <span class="st-pos">5</span>
+      <span class="st-title">Hard Skills</span>
+      <span class="st-team">Languages, tools &amp; frameworks</span>
+      <span class="st-pts">18 <small>PTS</small></span>
+    </a>
+    <a href="#certificates" class="standing-row" data-nav role="listitem">
+      <span class="st-pos">6</span>
+      <span class="st-title">Certificates</span>
+      <span class="st-team">Cloud, AI &amp; internship programs</span>
+      <span class="st-pts">5 <small>PTS</small></span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="section-head">
+    <p class="eyebrow">P1 · PROFILE</p>
+    <h2>About Me</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-photo-wrap">
+      <div class="about-photo" aria-hidden="true">
+        <img src="assets/profile.jpg" alt="Profile picture of Embun Aqeela Zahra">
+      </div>
+      <div class="about-photo-tag">EMBUN AQEELA ZAHRA<br>CAR NO. 12</div>
+    </div>
+
+    <div class="about-content">
+      <p class="about-text">Dedicated Information Systems student at President University with a concentration in Data Science, experienced in developing data-driven and AI-enabled web systems. Proficient in Python, SQL, Power BI, PHP, HTML, CSS, JavaScript, and modern web technologies, with hands-on experience in full-stack development and Microsoft Office.</p>
+      <p class="about-text">Detail-oriented, well-organized, and passionate about digital transformation and data-driven decision-making — creative in problem-solving and quick to adapt to new tools and frameworks. Able to work effectively both independently and in collaborative teams.</p>
+
+      <div class="quick-facts">
+        <div class="qf-item"><span class="qf-label">Location</span><span class="qf-value">South Cikarang, West Java</span></div>
+        <div class="qf-item"><span class="qf-label">Email</span><span class="qf-value"><a href="mailto:zahraembunazahra@gmail.com">zahraembunazahra@gmail.com</a></span></div>
+        <div class="qf-item"><span class="qf-label">Phone</span><span class="qf-value">+62 821-1469-0126</span></div>
+        <div class="qf-item"><span class="qf-label">LinkedIn</span><span class="qf-value"><a href="https://www.linkedin.com/in/embun-aqeela-zahra" target="_blank" rel="noopener">embun-aqeela-zahra</a></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="education">
+    <h3 class="sub-heading">Education</h3>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-top">
+          <span class="edu-period">Sept 2023 — Present</span>
+          <span class="edu-badge">CGPA 3.76 / 4.00</span>
+        </div>
+        <h4>President University, Bekasi, West Java</h4>
+        <p>Bachelor of Computer Science, Major in Information Systems — Concentration in Data Science</p>
+        <p class="edu-note"><strong>Coursework:</strong> Data Analytics, Database Systems, Machine Learning</p>
+        <p class="edu-note"><strong>Training:</strong> Digital Talent Scholarship – Cloud &amp; AI, Generative AI for Information System</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-top">
+          <span class="edu-period">2019 — 2022</span>
+          <span class="edu-badge">Graduated with Honors</span>
+        </div>
+        <h4>SMAN 2 Cikarang Selatan, Bekasi, West Java</h4>
+        <p>Senior High School, Science Major</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <div class="section-head">
+    <p class="eyebrow">P2 · RACE CALENDAR</p>
+    <h2>Work Experience</h2>
+    <p class="section-desc">My work and internship journey, from the most recent.</p>
+  </div>
+
+  <div class="timeline">
+
+    <article class="tl-card">
+      <div class="tl-round">ROUND 01</div>
+      <div class="tl-body">
+        <div class="tl-top">
+          <h3>Programming Intern</h3>
+          <span class="tl-period">Jan — June 2026</span>
+        </div>
+        <p class="tl-org">Center for Data and Information Technology, Ministry of Energy and Mineral Resources (Pusdatin ESDM) · Division of Information Systems &amp; IT Infrastructure — Central Jakarta</p>
+        <ul class="tl-list">
+          <li>Developed a Short URL Management System using Laravel, PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap.</li>
+          <li>Created SRS, Requirements Checklist, Data Standards Requirements Checklist, and UAT Scenario Document.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="tl-card">
+      <div class="tl-round">ROUND 02</div>
+      <div class="tl-body">
+        <div class="tl-top">
+          <h3>Data Analyst Intern</h3>
+          <span class="tl-period">Feb — Apr 2026</span>
+        </div>
+        <p class="tl-org">Jakarta Golf Club · IT Division — East Jakarta</p>
+        <ul class="tl-list">
+          <li>Analyzed golf player data to identify visitor trends and membership behavior.</li>
+          <li>Analyzed restaurant sales and purchase data for operational insights.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="tl-card">
+      <div class="tl-round">ROUND 03</div>
+      <div class="tl-body">
+        <div class="tl-top">
+          <h3>Programming Intern</h3>
+          <span class="tl-period">Sept — Dec 2025</span>
+        </div>
+        <p class="tl-org">Secretariat General of the House of Representatives of the Republic of Indonesia (Setjen DPR RI) · Division of Information Systems &amp; IT Infrastructure — Central Jakarta</p>
+        <ul class="tl-list">
+          <li>Developed an AI Proposal Generator System.</li>
+          <li>Developed an Online Survey Questionnaire System.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="tl-card">
+      <div class="tl-round">ROUND 04</div>
+      <div class="tl-body">
+        <div class="tl-top">
+          <h3>Mathematics Tutor</h3>
+          <span class="tl-period">2023 — 2025</span>
+        </div>
+        <p class="tl-org">Freelance, Junior High School Level — Bekasi, West Java</p>
+        <ul class="tl-list">
+          <li>Private tutoring in Mathematics for 10+ students (Grade 8 &amp; 9), fully offline.</li>
+          <li>Designed structured lesson materials tailored to each student's pace and needs.</li>
+          <li>Improved students' test scores by an average of 20–30% through consistent guidance.</li>
+          <li>Maintained strong communication with students and parents.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="tl-card">
+      <div class="tl-round">ROUND 05</div>
+      <div class="tl-body">
+        <div class="tl-top">
+          <h3>Member of Secretary</h3>
+          <span class="tl-period">June 2024</span>
+        </div>
+        <p class="tl-org">Bincang Asik (BISIK Vol. 17) Sahabat Danacita — Bekasi, West Java</p>
+        <ul class="tl-list">
+          <li>Disseminated registration materials to 200+ participants.</li>
+          <li>Produced 100+ personalized certificates of completion, enhancing attendee engagement.</li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="section-head">
+    <p class="eyebrow">P3 · GARAGE</p>
+    <h2>Projects</h2>
+    <p class="section-desc">A showcase of key web applications and data analytics systems.</p>
+  </div>
+
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <span class="pc-no">01</span>
+      <h3>Short URL Management System</h3>
+      <span class="pc-role">Data Analyst · Jan–June 2026</span>
+      <p>A Laravel-based short URL management system using PHP, MySQL, HTML, CSS, JS, Bootstrap — complete with a real-time visit analytics dashboard, SRS, Figma prototype, and ERD complying with government development standards.</p>
+      <div class="pc-tags"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">02</span>
+      <h3>AI Proposal Generator System</h3>
+      <span class="pc-role">Programmer · Sept–Dec 2025</span>
+      <p>An AI-based system built with Laravel to automatically generate structured proposal documents, integrated with OpenRouter API, featuring history tracking, PDF/DOCX export, and an admin dashboard.</p>
+      <div class="pc-tags"><span>Laravel</span><span>AI API</span><span>PDF/DOCX</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">03</span>
+      <h3>Online Survey Questionnaire System</h3>
+      <span class="pc-role">Programmer · Sept–Dec 2025</span>
+      <p>An online survey system to gather data on digital vs. cash payment efficiency, featuring real-time validation, CAPTCHA, autosave, and access via unique links.</p>
+      <div class="pc-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">04</span>
+      <h3>Learnlytics — Academic Analytics &amp; Prediction System</h3>
+      <span class="pc-role">Programmer · May 2025</span>
+      <p>A machine learning-based academic analytics platform: learning style analysis, grade &amp; graduation prediction, course recommendations, and study partner matching using K-Means, Random Forest, and Apriori.</p>
+      <div class="pc-tags"><span>Django</span><span>PostgreSQL</span><span>ML</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">05</span>
+      <h3>Skill Gap Analysis System</h3>
+      <span class="pc-role">Programmer · Jun–Jul 2025</span>
+      <p>An analytical platform to map students' skill gaps using data processing and predictive models, featuring an interactive dashboard to support data-driven decisions.</p>
+      <div class="pc-tags"><span>Python</span><span>Machine Learning</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">06</span>
+      <h3>Production System Cycle Website</h3>
+      <span class="pc-role">Programmer · May 2025</span>
+      <p>Production system analysis for a footwear company: raw material inventory, bottom/upper production, assembly, and quality control, complete with process flow documentation.</p>
+      <div class="pc-tags"><span>System Analysis</span><span>Documentation</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">07</span>
+      <h3>Inventory Management System Website</h3>
+      <span class="pc-role">Programmer · April 2024</span>
+      <p>A web-based inventory management system to monitor raw materials, semi-finished goods, and finished goods at each production stage, featuring data input and stock monitoring.</p>
+      <div class="pc-tags"><span>Web Development</span><span>Database</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">08</span>
+      <h3>Analyzed Golf Player Data</h3>
+      <span class="pc-role">Data Analyst · Feb–Mar 2026</span>
+      <p>Analysis of golf player data from Dec 2025 to Apr 2026 to identify visitor trends, segmentation, and membership behavior using Python in Google Colab.</p>
+      <div class="pc-tags"><span>Python</span><span>Google Colab</span><span>Data Viz</span></div>
+    </article>
+
+    <article class="project-card">
+      <span class="pc-no">09</span>
+      <h3>Analyzed Restaurant Sales &amp; Purchase</h3>
+      <span class="pc-role">Data Analyst · Mar–Apr 2026</span>
+      <p>Analysis of sales, transaction, customer purchase, inventory, and restaurant supplier data to identify sales trends and inventory risks.</p>
+      <div class="pc-tags"><span>Python</span><span>Business Insight</span></div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-alt" id="skills">
+  <div class="section-head">
+    <p class="eyebrow">P4–P5 · PIT BOARD</p>
+    <h2>Skills</h2>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-block">
+      <h3 class="sub-heading">Hard Skills</h3>
+      <div class="tag-cloud">
+        <span>Python</span><span>PHP</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>React</span><span>Laravel</span><span>Docker</span><span>Power BI</span>
+        <span>Jupyter Notebook</span><span>SQL</span><span>Excel</span><span>Figma</span>
+        <span>Data Analysis</span><span>Data Management</span><span>Machine Learning</span>
+        <span>Web Development</span><span>API Integration</span>
+      </div>
+    </div>
+
+    <div class="skill-block">
+      <h3 class="sub-heading">Soft Skills</h3>
+      <div class="tag-cloud tag-cloud-yellow">
+        <span>Communication</span><span>Problem Solving</span><span>Critical Thinking</span>
+        <span>Analytical Thinking</span><span>Time Management</span><span>Teamwork</span>
+        <span>Adaptability</span><span>Project Coordination</span><span>Fast Learning</span>
+      </div>
+    </div>
+
+    <div class="skill-block">
+      <h3 class="sub-heading">Languages</h3>
+      <div class="tag-cloud">
+        <span>Indonesian — Native</span><span>English — Intermediate</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATES ============ -->
+<section class="section" id="certificates">
+  <div class="section-head">
+    <p class="eyebrow">P6 · TROPHY CABINET</p>
+    <h2>Certificates</h2>
+    <p class="section-desc">Click to open certificates.</p>
+  </div>
+
+  <div class="cert-list">
+    <a class="cert-row" href="#" target="_blank" rel="noopener">
+      <span class="cert-name">
+        <strong>Generative AI for Information System</strong>
+        <small>July 2024</small>
+      </span>
+      <span class="cert-pts">VIEW</span>
+    </a>
+    <a class="cert-row" href="#" target="_blank" rel="noopener">
+      <span class="cert-name">
+        <strong>Introduction to Cloud and AI Applications for Digital Business</strong>
+        <small>October 2024</small>
+      </span>
+      <span class="cert-pts">VIEW</span>
+    </a>
+    <a class="cert-row" href="#" target="_blank" rel="noopener">
+      <span class="cert-name">
+        <strong>AWS Skill Builder</strong>
+        <small>Amazon Web Services</small>
+      </span>
+      <span class="cert-pts">VIEW</span>
+    </a>
+    <a class="cert-row" href="#" target="_blank" rel="noopener">
+      <span class="cert-name">
+        <strong>Digital Talent Scholarship</strong>
+        <small>Ministry of Communication and Information Technology (Kementerian Kominfo)</small>
+      </span>
+      <span class="cert-pts">92.87 <small>PTS</small></span>
+    </a>
+    <a class="cert-row" href="#" target="_blank" rel="noopener">
+      <span class="cert-name">
+        <strong>Internship Program 2025</strong>
+        <small>DPR RI</small>
+      </span>
+      <span class="cert-pts">90 <small>PTS</small></span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="footer-flag" aria-hidden="true"></div>
+  <div class="footer-inner">
+    <h2 class="footer-title">Let's Talk</h2>
+    <p class="footer-sub">Always driven for the next challenge. Feel free to reach out for collaborations, professional networking, or just chatting about data &amp; web development.</p>
+
+    <div class="footer-links">
+      <a href="mailto:zahraembunazahra@gmail.com">zahraembunazahra@gmail.com</a>
+      <a href="tel:+6282114690126">+62 821-1469-0126</a>
+      <a href="https://www.linkedin.com/in/embun-aqeela-zahra" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">GitHub</a>
+    </div>
+
+    <p class="footer-bottom">© <span id="year"></span> Embun Aqeela Zahra. Built &amp; hosted on Vercel.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
